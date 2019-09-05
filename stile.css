@@ -1,0 +1,72 @@
+html {
+    top: 50px;
+}
+
+.pagina {
+    min-height: 1200px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-content {
+    padding: 10px;
+    min-height: 800px;
+    margin-top: 0px;
+}
+
+.home-content-title {
+    padding: 20px;
+    text-align: center;
+}
+
+.articolomain {
+    width: 90%;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    background-color: rgba(219, 236, 255, 0.1);
+    border: 1px solid rgba(219, 236, 255, 0.2);
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px;
+}
+
+.articolomain p {
+    background-color: #0AF5D1;
+    border: solid 1px #0AF5D1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.nav td:hover {
+    border-bottom: 5px solid #FF3399;
+    background-color: #EEEEEE;
+}
+
+.nav {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border-spacing: 0;
+    height: 30px;
+}
+
+.riferimento-casuale {
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-articles{
+    padding:15px 10px 10px 15px;
+}
+
+tr[data-href]{
+    cursor:pointer;
+}
+a[onclick]{
+    cursor:pointer;
+}
